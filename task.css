@@ -1,0 +1,82 @@
+ body,p,h2{
+margin: 0px;
+padding: 0px; 
+ }
+ .container{
+     margin: 0px;
+ } 
+ .container{
+     margin: 0px 50px;
+ }
+.sec1{
+    background:linear-gradient(rgba(0,0,0,0.4),#050211 ),url(./images/20200813_120714.jpg);
+     background-size: cover;
+    background-position: center;  
+    height: 100vh;
+    font-family: Arial;}
+    .row p{
+        display: grid;
+        grid-template-columns: 35%;
+         margin-left: 60%;
+        padding-top: 25%;
+        text-transform: uppercase;
+        font-size: 2rem;
+        letter-spacing: 3px;
+        color: wheat;
+    }
+    .row2 h2{
+      text-transform: uppercase;
+      padding: 30px;
+    }
+    .row2 {
+    display: grid;
+    grid-template-columns: 105%;
+    padding-top: 40px;
+    text-align: center;
+    }
+    .box{
+      border: solid 3px; 
+      height: 60px;
+      width: 60px;
+      margin-left: 100px; 
+    }
+    .left{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-left: 60px;
+        padding-top: 60px;
+        text-align: center;
+    }
+    .sec3{
+        background-image: url(./images/1\ \(55\).jpg);
+        height: 100vh;
+        padding-bottom: 30px;
+    
+    }
+    .row3{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        padding-top: 300px;
+        font-size: 2rem;
+        margin-left: 50px;
+        text-align: center;
+    
+    }
+    .row4{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-gap: 80px;
+        margin-left: 60px;
+    }
+    .row5{
+        background-color: wheat;
+        text-align: center;
+         padding: 60px;
+         display: grid;
+         grid-template-columns: 80%;
+         
+    }
+    
+    
+    
+
